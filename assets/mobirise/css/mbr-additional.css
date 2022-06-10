@@ -6,11 +6,11 @@ body {
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
-  font-size: 4.6rem;
+  font-size: 1.2rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
+  font-size: 1.5rem;
 }
 .display-2 {
   font-family: 'Jost', sans-serif;
@@ -51,14 +51,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 0.96rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.84rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -722,79 +722,15 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-t8mtu96SfJ {
-  padding-top: 6rem;
+.cid-t8mCZnPU8t {
+  padding-top: 7rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-t8mtu96SfJ .mbr-media {
-  position: relative;
-}
-.cid-t8mtu96SfJ .mbr-media img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-t8mtu96SfJ .icon-wrap {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-.cid-t8mtu96SfJ .mbr-media span {
-  font-size: 4rem;
-  transition: all 0.2s;
-}
-.cid-t8mtu96SfJ .modalWindow {
-  position: fixed;
-  z-index: 5000;
-  left: 0;
-  top: 0;
-  background-color: rgba(61, 61, 61, 0.65);
-  width: 100%;
-  height: 100%;
-}
-.cid-t8mtu96SfJ .modalWindow .modalWindow-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-.cid-t8mtu96SfJ .modalWindow .modalWindow-video {
-  height: calc(44.9943757vw);
-  width: 80vw;
-  margin: 0 auto;
-}
-.cid-t8mtu96SfJ .close {
-  position: fixed;
-  opacity: 0.5;
-  font-size: 22px;
-  font-weight: 300;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  color: #fff;
-  top: 2.5rem;
-  right: 2.5rem;
-  border: 2px solid #fff;
-  text-shadow: none;
-  z-index: 5;
-  transition: opacity 0.3s ease;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.cid-t8mtu96SfJ .close:hover {
-  opacity: 1;
-  background: #000;
-  color: #fff;
-}
-.cid-t8mugYfnyb {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-t8mugYfnyb .mbr-fallback-image.disabled {
+.cid-t8mCZnPU8t .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-t8mugYfnyb .mbr-fallback-image {
+.cid-t8mCZnPU8t .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -803,14 +739,89 @@ a {
   position: absolute;
   top: 0;
 }
+.cid-t8mCZnPU8t .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+.cid-t8mCZnPU8t .icon-box {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+.cid-t8mCZnPU8t .text-box {
+  text-align: center;
+}
+.cid-t8mCZnPU8t span {
+  font-size: 4rem;
+  color: #6592e6;
+  font-weight: bold;
+  display: block;
+}
 @media (max-width: 991px) {
-  .cid-t8mugYfnyb .image-wrapper {
-    margin-bottom: 1rem;
+  .cid-t8mCZnPU8t .card {
+    margin-bottom: 2rem;
+  }
+  .cid-t8mCZnPU8t .card-wrapper {
+    margin-bottom: 2rem;
   }
 }
-.cid-t8mugYfnyb .row {
-  flex-direction: row-reverse;
+@media (max-width: 768px) {
+  .cid-t8mCZnPU8t span {
+    font-size: 21vw;
+  }
 }
-.cid-t8mugYfnyb img {
+.cid-t8mCZnPU8t .item .icon-box .step-number {
+  text-align: left;
+}
+.cid-t8mDBeRLNo {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-t8mDBeRLNo .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8mDBeRLNo .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t8mDBeRLNo .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+.cid-t8mDBeRLNo .icon-box {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+.cid-t8mDBeRLNo .text-box {
+  text-align: center;
+}
+.cid-t8mDBeRLNo span {
+  font-size: 4rem;
+  color: #6592e6;
+  font-weight: bold;
+  display: block;
+}
+@media (max-width: 991px) {
+  .cid-t8mDBeRLNo .card {
+    margin-bottom: 2rem;
+  }
+  .cid-t8mDBeRLNo .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-t8mDBeRLNo span {
+    font-size: 21vw;
+  }
 }
