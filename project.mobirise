@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -14,7 +14,7 @@
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
         "display1Font": "Jost",
-        "display1Size": "7.2",
+        "display1Size": "3.4",
         "display2Font": "Jost",
         "display2Size": "1.6",
         "display5Font": "Jost",
@@ -247,6 +247,9 @@
               }
             },
             ".item .icon-box .step-number": {
+              "text-align": "left"
+            },
+            ".icon-title, .mbr-section-btn, .item .icon-box .step-number": {
               "text-align": "left"
             }
           },
